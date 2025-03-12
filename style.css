@@ -71,28 +71,68 @@ nav a:hover{
 nav .active{
     color: hsl(0, 100%, 50%)
 }
-.home .welcome{
+.home-content .welcome{
     display: flex;
     animation-name: slideLeft;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
-.home .welcome .h_1{
+.home-content .welcome .h_1{
 
     animation-name: slideLeft;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
-.home .welcome .h_2{
+.home-content .welcome .h_2{
 
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+.home-content .welcome .h_3{
     animation-name: slideLeft;
     animation-duration: 4s;
 }
-.home .welcome .h_3{
-
+.home-content .welcome .h_3 a{
+    color: red;
+    text-decoration: none;
+}
+.home-content .welcome .h_4{
+    font-size: 1em;
+    margin-top: 6px;
     animation-name: slideLeft;
     animation-duration: 5s;
 }
+.projects-content .welcome{
+    display: flex;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+.projects-content .h_2 a{
+    color: hsl(0, 100%, 50%);
+}
+.projects-content .h_2 a:hover{
+    color: hsl(0, 100%, 30%);
+}
+.projects-content .h_1{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+.projects-content .h_2{
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+.projects-content .h_3{
+    margin-top: 7px;
+    font-size: 0.9em;
+    animation-name: slideLeft;
+    animation-duration: 4s;
+}
+
 h1{
     margin: 3px;
+}
+
+.home p{
+    margin: 25px;
+    font-size: 1em;
 }
 
 @keyframes slideLeft{
