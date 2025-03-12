@@ -38,6 +38,7 @@ header div{
     margin: 0px;
     font-size: 1.7em;
     font-style: italic;
+    transition: 1s ease;
 }
 header div:hover{
     color: rgb(255, 0, 47);
@@ -59,11 +60,41 @@ header div:hover{
     height: 100%;
     margin-left: 4rem;
     font-weight: 500;
-    transition: 2s ease;
+    transition: 1s ease;
     border-bottom: 3px solid transparent;
     color: white;
 }
+nav a:hover{
+    color: hsl(0, 100%, 70%);
+}
 
 nav .active{
-    color: red
+    color: hsl(0, 100%, 50%)
+}
+.home .welcome{
+    display: flex;
+    animation-name: slideLeft;
+    animation-duration: 5s;
+}
+.home .welcome .h_1{
+
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+.home .welcome .h_2{
+
+    animation-name: slideLeft;
+    animation-duration: 4s;
+}
+.home .welcome .h_3{
+
+    animation-name: slideLeft;
+    animation-duration: 5s;
+}
+h1{
+    margin: 3px;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(200%);}
 }
