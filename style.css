@@ -45,6 +45,56 @@ header div:hover{
     cursor: default;
     
 }
+.contact-img{
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 35px;
+
+}
+.contact-img img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50%);
+}
+.mail{
+    color: hsl(0, 100%, 50%);
+    cursor: default;
+    transition: 1s ease;
+    margin-left: 50px;
+}
+.mail:hover{
+    color: hsl(0, 100%, 75%);
+}
+.phone{
+    color: hsl(0, 100%, 50%);
+    cursor: default;
+    transition: 1s ease;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 2px;
+}
+.phone:hover{
+    color: hsl(0, 100%, 75%);
+}
+.contact-content .h_1{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.contact-content .h_2{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.contact-content .welcome{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+.contact-content h1{
+    transition: 2s ease;
+}
+
 
 .navbar{
     position: fixed;
@@ -71,10 +121,30 @@ nav a:hover{
 nav .active{
     color: hsl(0, 100%, 50%)
 }
+.home-img{
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+.home-img img{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50%);
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+.home-img img:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+
+
 .home-content .welcome{
+    font-size: 1.5em;
+    margin-left: 15px;
     display: flex;
     animation-name: slideLeft;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 .home-content .welcome .h_1{
 
@@ -96,14 +166,31 @@ nav .active{
 }
 .home-content .welcome .h_4{
     font-size: 1em;
-    margin-top: 6px;
+    margin-top: 7px;
     animation-name: slideLeft;
     animation-duration: 5s;
 }
+
+.project-img{
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 35px;
+
+}
+.project-img img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50%);
+}
+
 .projects-content .welcome{
     display: flex;
     animation-name: slideLeft;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
+    font-size: 1.5em;
+    margin-bottom: 35px;
+    margin-left: 15px;
 }
 .projects-content .h_2 a{
     color: hsl(0, 100%, 50%);
@@ -131,6 +218,14 @@ h1{
 }
 
 .home p{
+    margin: 25px;
+    font-size: 1em;
+}
+.project p{
+    margin: 25px;
+    font-size: 1em;
+}
+.contact p{
     margin: 25px;
     font-size: 1em;
 }

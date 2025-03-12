@@ -4,3 +4,5 @@ może... zmienić/wyrzucić zdjęcie
 Contact: dodać ikonki maila i telefonu, dodać linkedin, github itd.
 
 ogólnie: może dodać stopkę wszędzie z czymś, dodać nowe zdjęcia, udostępnić online
+
+teraz:
