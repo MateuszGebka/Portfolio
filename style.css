@@ -126,7 +126,6 @@ nav .active{
 }
 .home-img{
     margin-top: 125px;
-    margin-left: 50px;
     margin-bottom: 45px;
 
 }
@@ -217,7 +216,6 @@ nav .active{
     font-size: 1.5em;
     margin-bottom: 35px;
     justify-content: center;
-    margin-left: 15px;
 }
 .projects-content .h_2 a{
     color: hsl(0, 100%, 50%);
@@ -239,6 +237,18 @@ nav .active{
     font-size: 0.9em;
     animation-name: slideLeft;
     animation-duration: 4s;
+}
+.project-main .h1_project{
+    margin-left: 35px;
+}
+
+
+
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
 
 h1{
