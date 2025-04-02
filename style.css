@@ -223,6 +223,25 @@ nav .active{
 
 .tech-container h4{
     color: red;
+    text-shadow: 5px 5px 10px;
+    font-style: italic;
+}
+
+.tech-container h2{
+    color: red;
+    text-shadow: 5px 5px 10px;
+    font-style: italic;
+}
+
+.ul-main{
+    margin-top: 45px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul-main li{
+    margin: 15px;
+    font-size: 18px;
 }
 
 .project-img{
@@ -270,6 +289,12 @@ nav .active{
 }
 .project-main .h1_project{
     margin-left: 35px;
+}
+
+.curr{
+    font-style: italic;
+    font-size: 15px;
+    color: green;
 }
 
 .project-main .container{
