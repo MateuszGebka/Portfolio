@@ -185,6 +185,14 @@ nav .active{
     animation-name: slideLeft;
     animation-duration: 5s;
 }
+
+.home-content .main-text{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 150px;
+}
+
+
 .project{
     display: flexbox;
     flex-direction: column;
