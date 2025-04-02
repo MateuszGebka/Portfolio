@@ -322,6 +322,10 @@ h1{
     font-size: 1em;
 }
 
+.contact-content{
+    margin-top: 155px;
+}
+
 @keyframes slideLeft{
     from{transform: translateX(200%);}
 }
