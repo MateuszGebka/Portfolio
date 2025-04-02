@@ -54,20 +54,7 @@ header div:hover{
     cursor: default;
     
 }
-.contact-img{
-    margin-top: 125px;
-    margin-left: 100px;
-    margin-bottom: 35px;
 
-}
-.contact-img img{
-    display: block;
-    width: 250px;
-    height: 250px;
-    clip-path: circle(50%);
-    animation-name: slideLeft;
-    animation-duration: 1s;
-}
 .mail{
     color: hsl(0, 100%, 50%);
     cursor: default;
